@@ -24,4 +24,7 @@ In **Prototype 3**, additional steps were introduced:
   - Automatically identifies whether the video is a side or front view.
 - **Angle-Specific Pipelines**
   - Classification, modelling, and feedback stages are handled separately for front and side views.
+- **MATLAB Files**
+  - The fuzzy inference system design in this prototype was done on MATLAB due to the fuzzy logic toolbox having pre-made machine learning optimisation algorithms, not avaoilable in python.
+  - Note that while the design was adone in MATLAB, the trained fuzzy inference systems were then imported into python and converted to skfyzzy systems because I am more comfortable coding in python.
 
