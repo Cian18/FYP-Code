@@ -1,0 +1,11 @@
+The models that I have saved are coefficients for linear lines.
+They are matrices of the following form:
+
+Model = |A00  A01|
+        |A10  A11|
+        |A20  A21|
+ 
+ Where we multiply it by:  |1   1   1  ....  1 |
+                           |t0  t1  t2 ....  tn|
+
+The result will be a 3Xn matrix where each row is the angle to the horizontal of the Torso, Upper Arm and Lower Arm, respectively. Each column is the coordinate at each timestamp.
