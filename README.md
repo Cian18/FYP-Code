@@ -17,6 +17,8 @@ Each prototype involves the following core stages:
    - Generates ideal joint trajectories for comparison.
 3. **Feedback Generation**
    - Compares actual motion to the model and provides human-like qualitative feedback.
+  
+In **Prototype 1** There is no folder indicating that Feedback generation was done, however, since this section was very simple in the first prototype it was contained in the same folder as "techniqie modelling" because it is just one jupyter notebook cell at the end of the technique modelling code.
 
 In **Prototype 3**, additional steps were introduced:
 
